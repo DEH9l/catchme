@@ -1,0 +1,47 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  background-color: gray;
+  top: 40%; }
+
+.target {
+  position: fixed;
+  width: 100px;
+  height: 50px;
+  border: 4px solid black;
+  top: 45%;
+  left: 47%; }
+
+.animation {
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: rebeccapurple;
+  display: inline-block;
+  color: rebeccapurple;
+  position: relative;
+  animation-name: test;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running; }
+
+@keyframes test {
+  0% {
+    left: 0; }
+  100% {
+    left: 93vw; } }
+.counter {
+  font-size: 4rem;
+  font-weight: bolder;
+  position: fixed;
+  top: 10%;
+  right: 50%; }
+
+/*# sourceMappingURL=test-styles.css.map */
